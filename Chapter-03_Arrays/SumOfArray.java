@@ -22,10 +22,12 @@ class SumOfArray {
             System.out.print("Enter the age of person number " + (i+1) + ": ");
             age[i] = input.nextInt();                           // get array element as input from user
         }
+
         System.out.print("\nArray Display: "); 
         for(int i = 0; i < num; i++){
             System.out.print(age[i] + " ");                     // display array
         }
+        
         int sumOfAge = 0;
         for(int i = 0; i < num; i++){
             sumOfAge += age[i];                                 // calculate Sum Of Array elements
